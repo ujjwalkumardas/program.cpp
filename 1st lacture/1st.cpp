@@ -5,7 +5,4 @@ int main(){
     cout<<"enter the number n";
     cin >>n;
     cout<<"the number of n is  "<<n;
-
-    
-
 }
