@@ -2,7 +2,8 @@
 #include<iostream>
 using namespace std;
 int main(){
-    int array[10],array1[5],array3[15];
+    int array[10],array1[5];
+    int array3[15];
     for(int i=0;i<10;i++){
         cout<<"enter the value of array of index["<<i<<"] = ";
         cin>>array[i];
