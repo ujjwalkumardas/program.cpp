@@ -5,12 +5,12 @@ int main(){
     int array[10],array1[5];
     int array3[15];
     for(int i=0;i<10;i++){
-        cout<<"enter the value of array of index["<<i<<"] = ";
+        cout<<"enter the value of array of index y["<<i<<"] = ";
         cin>>array[i];
     }
     cout<<"enter the value of array1"<<endl;
     for(int i=0;i<5;i++){
-        cout<<"enter the value of array1 of index["<<i<<"] = ";
+        cout<<"enter the value of array of index x["<<i<<"] = ";
         cin>>array1[i];
     }
     int index=0;
