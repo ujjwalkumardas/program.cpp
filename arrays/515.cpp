@@ -4,15 +4,35 @@ using namespace std;
 int main()
 {
     int array[10];
-    int min = 0;
+
     for (int i = 0; i < 10; i++)
     {
-        int n;
         cout << "enter the value of index [" << i << "] = ";
-        cin >> n;
-        array[i] = n;
+
+        cin >> array[i];
     }
-    for(int i=0;i<10;i++){
-        if(min<arr)
+    cout << "------------------------------------------------" << endl;
+    cout << "enter the data searching in the array = ";
+    int n;
+    cin >> n;
+    int check = 0;
+
+    for (int i = 0; i < 10; i++)
+    {
+        if (n == array[i])
+        {
+            check = 1;
+            break;
+        }
+    }
+    if (check == 1)
+    {
+        cout << endl
+             << "'yes',data is present in array";
+    }
+    else
+    {
+        cout << endl
+             << "data is not present in array";
     }
 }
