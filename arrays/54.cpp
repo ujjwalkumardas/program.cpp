@@ -20,19 +20,22 @@ int main()
     }
     for (int i = 0; i < n; i++)
     {
-        if (array[i] < small)
-        {
-            small = array[i];
-            po1 = i;
-        }
+
         if (array[i] > largest)
         {
             largest = array[i];
             po2 = i;
         }
     }
-    cout << "smallest no in a array of index[" << po1 << "] = " << small<<endl;
-    cout << "largest no in a array of index[" << po2 << "] = " << largest<<endl;
+    for (int i = 0; i < n; i++)
+    {
+        if (array[i] < small)
+        {
+            small = array[i];
+            po1 = i;
+        }
+    }
 
-    
+    cout << "smallest no in a array of index[" << po1 << "] = " << small << endl;
+    cout << "largest no in a array of index[" << po2 << "] = " << largest << endl;
 }
